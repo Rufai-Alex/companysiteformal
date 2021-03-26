@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-export const Navber = () => {
+export default function Navbar() {
   const [active, setActive] = useState(false);
 
   const handleClick = () => {
@@ -10,8 +10,8 @@ export const Navber = () => {
   };
 
   return (
-    <>
-      <nav className="flex items-center flex-wrap bg-blue-900 p-2 px-6 bg-opacity-95">
+    <div className="top-0 absolute z-50 w-full">
+      <nav className="flex items-center flex-wrap bg-blue-900 p-2 px-6 bg-opacity-95 ">
         <Link href="/">
           <Image src="/logo.png" alt="LOGO" width={110} height={60} />
         </Link>
@@ -42,30 +42,28 @@ export const Navber = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
             <Link href="/service.js">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center ">
                 WHAT WE DO
               </a>
             </Link>
             <Link href="/about">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center">
                 ABOUT US
               </a>
             </Link>
             <Link href="/blog">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center">
                 BLOG
               </a>
             </Link>
             <Link href="/contact">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center ">
                 Contact us
               </a>
             </Link>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
-};
-
-export default Navber;
+}

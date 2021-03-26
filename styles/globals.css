@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.heroBackgroung {
+    background-size: cover;
+    background-image: url("/public/img/Branding/art-thing.jpg");
+}
