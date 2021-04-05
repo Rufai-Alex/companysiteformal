@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+html {
+    font-family: "Comfortaa", cursive;
+}
+
+.footerBackground {
+    background-color: rgb(244, 247, 250);
+}
+
+:root {
+    --primary-color: #00438b;
+}
+
+.primaryColorBg {
+    background-color: var(--primary-color);
+}
+
+.primaryColorText {
+    color: var(--primary-color);
+}
