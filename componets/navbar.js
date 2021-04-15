@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="top-0 absolute z-50 w-full ">
-      <nav className="flex items-center flex-wrap bg-blue-900 p-2 px-12 bg-opacity-95 ">
+      <nav className="flex items-center flex-wrap font-head bg-blue-900 p-2 px-12 bg-opacity-95 ">
         <Link href="/">
           <Image src="/logo.png" alt="LOGO" width={110} height={60} />
         </Link>
@@ -53,12 +53,12 @@ export default function Navbar() {
             </Link>
             <Link href="/blog">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center">
-                BLOG
+                PORTFOLIO
               </a>
             </Link>
             <Link href="/contact">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-normal items-center justify-center ">
-                Contact us
+                CONTACT US
               </a>
             </Link>
           </div>

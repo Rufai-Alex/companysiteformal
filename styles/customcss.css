@@ -1,20 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
-html {
-    font-family: "Comfortaa", cursive;
+.font-head {
+  font-family: "Comfortaa", cursive;
 }
 
 .footerBackground {
-    background-color: rgb(244, 247, 250);
+  background-color: rgb(244, 247, 250);
 }
 
 :root {
-    --primary-color: #00438b;
+  --primary-color: rgb(3 176 241);
 }
 
 .primaryColorBg {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .primaryColorText {
-    color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.header-hight {
+  line-height: 4;
+}
+.screen60 {
+  height: 60vh;
 }
