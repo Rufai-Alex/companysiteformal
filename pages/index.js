@@ -39,7 +39,9 @@ export default function Home() {
       <div className="bg-indigo-50  mt-24">
         <div className="WHAT WE CAN DO  justify-center text-center flex flex-wrap mb-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="uppercase mb-4 mt-12">what we do</h2>
+            <h2 className="uppercase mb-4 mt-12 text-5xl text-gray-400  ">
+              what we do
+            </h2>
             <p className="text-2xl  lg:text-5xl primaryColorText capitalize header-hight font-bold">
               We Are a Global Business Solution Provider
             </p>
@@ -49,11 +51,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row">
             <div className="lg:w-1/2 w-full">
               <h3 className=" primaryColorText capitalize header-hight font-bold">
-                <span className="block text-2xl  lg:text-8xl text-gray-400 uppercase font-light leading-10">
+                <span className="block text-2xl  lg:text-6xl text-gray-400 uppercase font-light leading-10">
                   Embedded
                 </span>
 
-                <span className="text-7xl font-light  block ">
+                <span className="text-5xl font-light  block ">
                   system design
                 </span>
               </h3>
@@ -122,6 +124,33 @@ export default function Home() {
                 src="/ITpics.png"
                 alt="..."
               />
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto softwarebg rounded-lg mt-12 ">
+          <div className="flex flex-col md:flex-row">
+            <div className="lg:w-1/2 w-full flex justify-left ml-4 items-center ">
+              <img
+                className=" w-full mt-6 sm:mt-0 max-h-60 max-w-md"
+                src="/softwarepic.png"
+                alt="..."
+              />
+            </div>
+            <div className="lg:w-1/2 w-full">
+              <h3 className=" primaryColorText capitalize header-hight font-bold mt-12">
+                <span className="block text-2xl  lg:text-6xl text-gray-400 uppercase font-light leading-10 lg:-ml-36">
+                  software product
+                </span>
+
+                <span className="text-5xl font-light  block lg:-ml-24">
+                  design and management
+                </span>
+              </h3>
+              <p className=" mt-4 text-3xl leading-10 lg:-ml-20 px-20">
+                Our expact are always ready to help clients design their
+                proffered technological solution that will stand the test of
+                time.
+              </p>
             </div>
           </div>
         </div>
