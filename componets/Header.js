@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -26,15 +27,15 @@ function Header() {
                   </p>{" "}
                 </h2>
                 <div className="mt-12">
-                  <a
-                    href="#"
-                    target="_blank"
-                    className="get-started text-white font-bold px-8 py-4 rounded 
+                  <Link href="/contact">
+                    <a
+                      className="get-started text-white font-bold px-8 py-4 rounded 
                     outline-none bg-yellow-600 focus:outline-none mr-1 mb-1 bg-lightBlue-500
                     active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                  >
-                    Contact us
-                  </a>
+                    >
+                      Contact us
+                    </a>
+                  </Link>
                 </div>
                 <div className="mt-10">
                   <p>Trusted by compoanies like </p>
