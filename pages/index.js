@@ -156,65 +156,49 @@ export default function Home() {
         </div>
         <section className="block relative z-1 bg-blueGray-600">
           <div className="container mx-auto">
+            <h3 className="text-3xl text-left">Our Recent works</h3>
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-12/12 px-4  mt-24">
                 <div className="flex flex-wrap">
                   <div className="w-full lg:w-4/12 px-4">
                     <h5 className="text-xl font-semibold pb-4 text-center">
-                      embedded system design
+                      TextMobilOnline
                     </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/embededPics.png"
+                        src="/textmobilapp.png"
                       />
                     </div>
-                    <p>
-                      we offer solutions to the demand for technological
-                      solution to human activities
-                    </p>
                   </div>
 
                   <div className="w-full lg:w-4/12 px-4">
                     <h5 className="text-xl font-semibold pb-4 text-center">
-                      Data service
+                      BellSik
                     </h5>
 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/service6.jpg"
+                        src="/bellsick.png"
                       />
                     </div>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Corporis minima voluptatibus error sunt hic repellat modi
-                      iure. Nobis, neque, eaque aliquam aspernatur, repellat
-                      modi molestiae pariatur beatae veniam a minima?
-                    </p>
                   </div>
 
                   <div className="w-full lg:w-4/12 px-4">
                     <h5 className="text-xl font-semibold pb-4 text-center">
-                      Consultancy services
+                      DataNow
                     </h5>
 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="service7.jpg"
+                        src="datanow.png"
                       />
                     </div>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Porro, repudiandae ab obcaecati exercitationem alias
-                      consequatur similique ullam facere iure officia
-                      consequuntur, libero dicta officiis eligendi modi
-                      laboriosam! Eveniet, distinctio.
-                    </p>
                   </div>
                 </div>
               </div>

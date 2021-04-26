@@ -8,18 +8,18 @@ function Footer2() {
           <img
             alt="..."
             className="align-middle border-none max-w-full h-auto rounded-lg"
-            src="/footerLogo.png"
+            src="/footerLogo2.png"
           />
         </div>
 
         <div className="p-5  w-full md:w-3/12">
-          <div className="text-sm uppercase text-center text-gray-400 font-medium mb-6">
+          <div className="text-sm uppercase text-center text-gray-600 font-medium mb-6">
             Contact information
           </div>
 
           <a
             href="#"
-            className="  text-gray-300 text-center hover:text-blue-500 text-sm font-medium duration-700 flex w-full "
+            className="  text-gray-500 text-center hover:text-blue-500 text-sm font-medium duration-700 flex w-full "
           >
             <svg
               version="1.1"
@@ -38,7 +38,7 @@ function Footer2() {
           </a>
           <a
             href="#"
-            className="my-3 flex text-gray-300 hover:text-blue-500 text-sm font-medium duration-700"
+            className="my-3 flex text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
               version="1.1"
@@ -55,7 +55,7 @@ function Footer2() {
           </a>
           <a
             href="#"
-            className=" flex text-gray-300 hover:text-blue-500 text-sm font-medium duration-700"
+            className=" flex text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
               version="1.1"
@@ -73,7 +73,7 @@ function Footer2() {
 
           <a
             href="#"
-            className="my-3 flex text-gray-300 hover:text-blue-500 text-sm font-medium duration-700"
+            className="my-3 flex items-center text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
               version="1.1"
@@ -83,9 +83,8 @@ function Footer2() {
               viewBox="0 0 32 32"
               fill="rgb(3 176 241)"
             >
-              <title>circle-right</title>
-              <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z"></path>
-              <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z"></path>
+              <title>email</title>
+              <path d="M28 5h-24c-2.209 0-4 1.792-4 4v13c0 2.209 1.791 4 4 4h24c2.209 0 4-1.791 4-4v-13c0-2.208-1.791-4-4-4zM2 10.25l6.999 5.25-6.999 5.25v-10.5zM30 22c0 1.104-0.898 2-2 2h-24c-1.103 0-2-0.896-2-2l7.832-5.875 4.368 3.277c0.533 0.398 1.166 0.6 1.8 0.6 0.633 0 1.266-0.201 1.799-0.6l4.369-3.277 7.832 5.875zM30 20.75l-7-5.25 7-5.25v10.5zM17.199 18.602c-0.349 0.262-0.763 0.4-1.199 0.4s-0.851-0.139-1.2-0.4l-12.8-9.602c0-1.103 0.897-2 2-2h24c1.102 0 2 0.897 2 2l-12.801 9.602z"></path>
             </svg>
             <span className="ml-4">support@systemstech.com.ng</span>
           </a>
@@ -97,25 +96,25 @@ function Footer2() {
           </div>
 
           <Link href="/about">
-            <a className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            <a className="my-3 block text-gray-500 hover:text-gray-100 text-sm font-medium duration-700">
               About Us
             </a>
           </Link>
 
           <Link href="/portfolio">
-            <a className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            <a className="my-3 block text-gray-500 hover:text-gray-100 text-sm font-medium duration-700">
               Potfoilio
             </a>
           </Link>
           <a
             href="#"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+            className="my-3 block text-gray-500 hover:text-gray-100 text-sm font-medium duration-700"
           >
             Twitter
           </a>
           <a
             href="#"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+            className="my-3 block text-gray-500 hover:text-gray-100 text-sm font-medium duration-700"
           >
             YouTube
           </a>

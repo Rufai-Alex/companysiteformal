@@ -13,7 +13,12 @@ export default function Navbar() {
     <div className="top-0 absolute z-50 w-full ">
       <nav className="flex items-center flex-wrap font-head bg-blue-900 p-2 px-12 bg-opacity-95 ">
         <Link href="/">
-          <Image src="/logo.png" alt="LOGO" width={110} height={60} />
+          <Image
+            src="/Systems_tech_icon.png"
+            alt="LOGO"
+            width={110}
+            height={60}
+          />
         </Link>
         <button
           className=" inline-flex p-3  rounded lg:hidden text-white ml-auto focus:outline-none hover:text-white outline-none"
