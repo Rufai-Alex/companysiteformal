@@ -3,17 +3,18 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div classNames="h-auto relative">
+    <div classNames="h-screen relative">
       <Navbar />
       <div
         className=" bg-opacity-80  
-           w-full h-full bg-center bg-cover flex  items-center flex-col border-transparent  "
+           w-full h-screen bg-center bg-cover flex  items-center flex-col border-transparent  "
         style={{
           background:
             " linear-gradient( #00438bd5, #00438bd5), url(/headerimage4.png)",
           backgroundBlendMode: "multiply",
           backgroundPosition: "top right",
           backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <section className="header relative pt-16 items-center flex h-screen max-h-860-px mb-24">
@@ -43,24 +44,7 @@ function Header() {
               </div>
             </div>
           </div>
-
-          {/* <img
-            className="absolute top-6 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-            src="/headerImage3.svg"
-            alt="..."
-          /> */}
         </section>
-        <svg
-          className="border-0 border-transparent overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,64L40,85.3C80,107,160,149,240,149.3C320,149,400,107,480,96C560,85,640,107,720,149.3C800,192,880,256,960,240C1040,224,1120,128,1200,106.7C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
       </div>
     </div>
   );

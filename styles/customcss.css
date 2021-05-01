@@ -1,7 +1,9 @@
 .font-head {
-  font-family: "Roboto", cursive;
+  font-family: "Rubik", cursive;
 }
-
+* {
+  font-family: "Rubik", cursive;
+}
 .footerBackground {
   background-color: rgb(245 248 249);
 }
@@ -22,7 +24,11 @@
   line-height: 4;
 }
 .screen60 {
-  height: 60vh;
+  height: 80vh;
+}
+
+.screen50 {
+  height: 50vh;
 }
 .maginTop {
   margin-top: 4.7rem;
@@ -35,4 +41,31 @@
 }
 .softwarebg {
   background-color: rgb(255 255 255);
+}
+.navbgscroll {
+  background-color: white;
+  display: flex;
+  color: black;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: fixed;
+  z-index: 10000;
+}
+.navbgTransparent {
+  background-color: transparent;
+  color: white;
+  z-index: 10000;
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: fixed;
 }

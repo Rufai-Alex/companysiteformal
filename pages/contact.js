@@ -6,7 +6,7 @@ function Contact() {
     <div className="">
       <Navbar />
       <div
-        className=" bg-opacity-80 maginTop
+        className=" bg-opacity-80 
            w-full screen60 bg-center bg-cover flex justify-center items-center flex-col border-transparent font-head text-4xl text-white lg:text-7xl  "
         style={{
           background:
