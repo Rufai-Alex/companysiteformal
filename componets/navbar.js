@@ -25,12 +25,17 @@ export default function Navbar() {
       <div>
         <nav className={navbar ? "navbgscroll " : "navbgTransparent"}>
           <Link href="/">
-            <Image
-              src="/Systems_tech_icon.png"
-              alt="LOGO"
-              width={110}
-              height={60}
-            />
+            <div className="flex flex-col">
+              <Image
+                src="/Systems_tech_icon.png"
+                alt="LOGO"
+                width={110}
+                height={50}
+              />
+              <h1 className="uppercase font-extralight  text-xs font-sans">
+                systems technologies
+              </h1>
+            </div>
           </Link>
           <button
             className=" inline-flex p-3  rounded lg:hidden text-white ml-auto focus:outline-none hover:text-white outline-none"

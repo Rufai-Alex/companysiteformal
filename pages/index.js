@@ -37,9 +37,9 @@ export default function Home() {
         </div>
         <span id="what"></span>
       </div>
-      <div className="  mt-24">
-        <div className="WHAT WE CAN DO  justify-center text-center flex flex-wrap mb-24">
-          <div className="w-full md:w-6/12 px-12 md:px-4">
+      <div className="  mt-24 px-12">
+        <div className="WHAT WE CAN DO  justify-center text-center flex flex-wrap grayBg ">
+          <div className="w-full md:w-6/12  md:px-4 ">
             <h2 className="uppercase mb-4 mt-12 text-5xl text-gray-400  ">
               what we do
             </h2>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="container mx-auto px-16 sectionpg rounded-lg ">
+        <div className="container mx-auto px-16 sectionpg rounded-b-lg ">
           <div className="flex flex-col md:flex-row">
             <div className="lg:w-1/2 w-full">
               <h3 className=" primaryColorText capitalize header-hight font-bold mt-10">
@@ -101,33 +101,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-16 weddevesectionbg rounded-lg mt-12">
-          <div className="flex flex-col md:flex-row">
-            <div className="lg:w-1/2 w-full">
-              <h3 className=" primaryColorText capitalize header-hight font-bold mt-8">
-                <span className="block text-3xl  lg:text-5xl text-gray-400 uppercase font-light leading-10">
-                  it product research
-                </span>
-
-                <span className="text-3xl  lg:text-4xl font-light  block mt-4">
-                  and consulting
-                </span>
-              </h3>
-              <p className=" mt-8 text-xl lg:text-2xl leading-10">
-                Our consulting team provide the best evaluation of IT products
-                that have been conceptualized or being developed to make it meet
-                the market demands and expectations.
-              </p>
-            </div>
-            <div className="lg:w-1/2 w-full flex justify-center items-center ">
-              <img
-                className=" w-full mt-6 sm:mt-0  max-h-860px"
-                src="/ITpics.png"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
         <div className="container mx-auto softwarebg rounded-lg mt-12 ">
           <div className="flex flex-col-reverse md:flex-row">
             <div className="lg:w-1/2 w-full flex justify-left ml-4 items-center ">
@@ -155,6 +128,34 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="container mx-auto px-16 weddevesectionbg rounded-lg mt-12">
+          <div className="flex flex-col md:flex-row">
+            <div className="lg:w-1/2 w-full">
+              <h3 className=" primaryColorText capitalize header-hight font-bold mt-8">
+                <span className="block text-3xl  lg:text-5xl text-gray-400 uppercase font-light leading-10">
+                  it product research
+                </span>
+
+                <span className="text-3xl  lg:text-4xl font-light  block mt-4">
+                  and consulting
+                </span>
+              </h3>
+              <p className=" mt-8 text-xl lg:text-2xl leading-10">
+                Our consulting team provide the best evaluation of IT products
+                that have been conceptualized or being developed to make it meet
+                the market demands and expectations.
+              </p>
+            </div>
+            <div className="lg:w-1/2 w-full flex justify-center items-center ">
+              <img
+                className=" w-full mt-6 sm:mt-0  max-h-860px"
+                src="/ITpics.png"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
         <section className="block relative z-1 bg-blueGray-600">
           <div className="container mx-auto">
             <h3 className="uppercase mb-4 mt-12 text-5xl text-gray-400 text-center ">

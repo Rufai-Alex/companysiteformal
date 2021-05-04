@@ -7,9 +7,18 @@ function Footer2() {
         <div className="p-10 w-full sm:w-8/12 md:w-6/12 lg:-mt-8">
           <img
             alt="..."
-            className="align-middle border-none max-w-full h-auto rounded-lg"
-            src="/footerLogo2.png"
+            className="align-middle border-none max-w-full h-20  rounded-lg pl-32"
+            src="/Systems_tech_icon.png"
           />
+          <div className="uppercase text-7xl primaryColorText font-sans font-light tracking-tighter subpixel-antialiased">
+            systems
+          </div>
+          <div className="uppercase text-4xl browncolor font-sans font-normal tracking-normal">
+            technologies
+          </div>
+          <div className=" font-sans text-sm primaryColorText tracking-widest italic pl-24">
+            "PeopleandSolutions"
+          </div>
         </div>
 
         <div className="p-5  w-full md:w-3/12">
