@@ -26,19 +26,21 @@ export default function Navbar() {
         <nav className={navbar ? "navbgscroll " : "navbgTransparent"}>
           <Link href="/">
             <div className="flex flex-col">
-              <Image
-                src="/Systems_tech_icon.png"
-                alt="LOGO"
-                width={110}
-                height={50}
-              />
+              <div className="-ml-2 px-8 mt-2">
+                <Image
+                  src="/Systems_tech_icon.png"
+                  alt="LOGO"
+                  width={70}
+                  height={40}
+                />
+              </div>
               <h1 className="uppercase font-extralight  text-xs font-sans">
                 systems technologies
               </h1>
             </div>
           </Link>
           <button
-            className=" inline-flex p-3  rounded lg:hidden text-white ml-auto focus:outline-none hover:text-white outline-none"
+            className=" inline-flex p-3  rounded lg:hidden  ml-auto focus:outline-none hover:bg-blue-700 outline-none"
             onClick={handleClick}
           >
             <svg

@@ -37,10 +37,10 @@ export default function Home() {
         </div>
         <span id="what"></span>
       </div>
-      <div className="  mt-24 px-12">
+      <div className="  mt-24">
         <div className="WHAT WE CAN DO  justify-center text-center flex flex-wrap grayBg ">
           <div className="w-full md:w-6/12  md:px-4 ">
-            <h2 className="uppercase mb-4 mt-12 text-5xl text-gray-400  ">
+            <h2 className="uppercase mb-4 mt-12 text-5xl text-gray-600  ">
               what we do
             </h2>
             <p className="text-2xl  lg:text-5xl primaryColorText capitalize header-hight font-bold">
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="container mx-auto px-16 sectionpg rounded-b-lg ">
+        <div className=" mx-auto px-16 sectionpg rounded-b-lg ">
           <div className="flex flex-col md:flex-row">
             <div className="lg:w-1/2 w-full">
               <h3 className=" primaryColorText capitalize header-hight font-bold mt-10">
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-16 weddevesectionbg mt-12 rounded-lg ">
+        <div className=" mx-auto px-16 weddevesectionbg pt-12 rounded-lg ">
           <div className="flex  flex-col-reverse md:flex-row">
             <div className="lg:w-1/2 w-full flex justify-center items-center ">
               <img
@@ -158,7 +158,7 @@ export default function Home() {
 
         <section className="block relative z-1 bg-blueGray-600">
           <div className="container mx-auto">
-            <h3 className="uppercase mb-4 mt-12 text-5xl text-gray-400 text-center ">
+            <h3 className="uppercase mb-4 mt-12 text-5xl text-gray-600 text-center ">
               Our Recent works
             </h3>
             <div className="justify-center flex flex-wrap">

@@ -1,5 +1,6 @@
 import Navbar from "./navbar";
 import Link from "next/link";
+import Image from "next/image";
 
 function Header() {
   return (
@@ -38,8 +39,34 @@ function Header() {
                     </a>
                   </Link>
                 </div>
-                <div className="mt-10">
-                  <p>Trusted by compoanies like </p>
+                <div className="mt-10 text-white">
+                  <p className="mb-4">Trusted by compoanies like :</p>
+                  <div className="flex space-x-4">
+                    <div>
+                      <Image
+                        src="/bellsickLogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src="/clickpaylogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src="/datanowlogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
