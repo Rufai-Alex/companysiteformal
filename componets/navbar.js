@@ -26,7 +26,7 @@ export default function Navbar() {
         <nav className={navbar ? "navbgscroll " : "navbgTransparent"}>
           <Link href="/">
             <div className="flex flex-col">
-              <div className="-ml-2 px-8 mt-2">
+              <div className="px-8 mt-2 cursor-pointer">
                 <Image
                   src="/Systems_tech_icon.png"
                   alt="LOGO"

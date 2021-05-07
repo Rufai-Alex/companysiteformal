@@ -144,7 +144,7 @@ function Footer2() {
               class="primaryColorText ml-1"
               target="_blank"
             >
-              System Technology
+              Systems Technologies
             </a>
           </p>
 

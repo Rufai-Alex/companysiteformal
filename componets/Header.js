@@ -44,7 +44,7 @@ function Header() {
                   <div className="flex space-x-4">
                     <div>
                       <Image
-                        src="/bellsickLogo.png"
+                        src="/taxMobillogo .png"
                         alt="LOGO"
                         width={70}
                         height={40}
@@ -52,7 +52,7 @@ function Header() {
                     </div>
                     <div>
                       <Image
-                        src="/clickpaylogo.png"
+                        src="/dodatalogo.png"
                         alt="LOGO"
                         width={70}
                         height={40}
@@ -60,7 +60,31 @@ function Header() {
                     </div>
                     <div>
                       <Image
-                        src="/datanowlogo.png"
+                        src="/xpresspaylogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src="/tigmapaylogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src="/dublivtulogo.png"
+                        alt="LOGO"
+                        width={70}
+                        height={40}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src="/dataheadquarterslogo.png"
                         alt="LOGO"
                         width={70}
                         height={40}

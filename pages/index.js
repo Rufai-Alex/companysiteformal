@@ -8,6 +8,10 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Systems Technologies</title>
+        <link rel="icon" href="/Systems_tech_icon.png" />
+      </Head>
       <Header />
       <div className="container, mx-auto p-8 font-head ">
         <div className="flex flex-col md:flex-row">
