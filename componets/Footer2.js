@@ -46,7 +46,7 @@ function Footer2() {
             </address>
           </a>
           <a
-            href="#"
+            href="tel:123-456-7890"
             className="my-3 flex text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
@@ -63,7 +63,7 @@ function Footer2() {
             <span className="ml-4">Call Us Now +2348168670476</span>
           </a>
           <a
-            href="#"
+            href="https://api.whatsapp.com/send?phone=08059959731"
             className=" flex text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
@@ -81,7 +81,7 @@ function Footer2() {
           </a>
 
           <a
-            href="#"
+            href="mailto:support@systemstech.com.ng"
             className="my-3 flex items-center text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
