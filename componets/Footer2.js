@@ -63,7 +63,7 @@ function Footer2() {
             <span className="ml-4">Call Us Now +2348168670476</span>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=08059959731"
+            href="https://api.whatsapp.com/send?phone=08198970476"
             className=" flex text-gray-500 hover:text-blue-500 text-sm font-medium duration-700"
           >
             <svg
