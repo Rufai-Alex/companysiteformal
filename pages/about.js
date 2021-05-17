@@ -3,11 +3,11 @@ import Navbar from "../componets/navbar";
 
 function About() {
   return (
-    <div>
+    <div className="font-Roboto">
       <Navbar />
       <div
         className=" bg-opacity-80 
-           w-full screen60 bg-center bg-cover flex justify-center items-center flex-col border-transparent font-head text-white text-7xl  "
+           w-full screen60 bg-center bg-cover flex justify-center items-center flex-col border-transparent  text-white text-7xl  "
         style={{
           background:
             " linear-gradient( #00438bd5, #00438bd5), url(/aboutpic.png)",
@@ -16,13 +16,13 @@ function About() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h2> About Us</h2>
+        <h2 className=""> About Us</h2>
       </div>
       <div className=" shadow-sm bg-indigo-50 py-14 ">
-        <h3 className="font-semibold lg:text-6xl text-center font-head mt-12 primaryColorText md:text-4xl text-3xl ">
+        <h3 className=" font-semibold lg:text-6xl text-center font-Roboto mt-12 primaryColorText md:text-4xl text-3xl ">
           Who We Are
         </h3>
-        <p className="text-center  lg:px-14 font-normal font-head text mt-16 px-10  text-xl bg-indigo-50 text-gray-600 ">
+        <p className="text-center  lg:px-14 font-normal  text mt-16 px-10  text-xl bg-indigo-50 text-gray-600 ">
           System Technologies Limited an indigenous engineering and IT Company
           establised to help actualize technological solutions for Nigerian
           businesses. We offer vast engineering, security and technology
@@ -50,7 +50,7 @@ function About() {
           activities.
         </p>
       </div>
-      <section class="text-gray-600 body-font">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <h2 className="uppercase mb-4 mt-12">CLIENT’S REVIEWS </h2>
           <h3 className="text-2xl  lg:text-5xl primaryColorText capitalize header-hight font-bold">
@@ -115,7 +115,7 @@ function About() {
       >
         <path
           fill="#0099ff"
-          fill-opacity="0.78"
+          fillOpacity="0.78"
           d="M0,224L80,224C160,224,320,224,480,229.3C640,235,800,245,960,208C1120,171,1280,85,1360,42.7L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
       </svg>

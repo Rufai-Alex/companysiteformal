@@ -1,9 +1,9 @@
-.font-head {
-  font-family: "Rubik", cursive;
+.font-hexad {
+  font-family: "Roboto", cursive;
 }
-* {
+/* * {
   font-family: "Rubik", cursive;
-}
+} */
 .footerBackground {
   background-color: rgb(245 248 249);
 }

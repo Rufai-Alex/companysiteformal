@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <div classNames="h-screen relative">
+    <div className="h-screen relative font-Roboto">
       <Navbar />
       <div
         className=" bg-opacity-80  
@@ -22,7 +22,7 @@ function Header() {
           <div className="container mx-auto items-center flex flex-wrap">
             <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-12">
               <div className="pt-32 sm:pt-0">
-                <h2 className="font-semibold font-head text-4xl text-white uppercase">
+                <h2 className="font-semibold  text-4xl text-white uppercase">
                   <p className=" mt-4 text-lg leading-relaxed text-blueGray-500">
                     We design and implement cost-effective, intituitive and
                     robust solution for engineering and softwere challange

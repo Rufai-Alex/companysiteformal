@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -19,14 +20,14 @@ export default function Navbar() {
   if (typeof window !== "undefined") {
     window.addEventListener("scroll", changeBg);
   }
-
+  const router = useRouter();
   return (
     <div className="top-0 z-50 w-full ">
       <div>
         <nav className={navbar ? "navbgscroll " : "navbgTransparent"}>
           <Link href="/">
-            <div className="flex flex-col">
-              <div className="px-8 mr-4 mt-2 cursor-pointer">
+            <div className="flex flex-col justify-center">
+              <div className=" pl-9 mt-2 cursor-pointer">
                 <Image
                   src="/Systems_tech_icon.png"
                   alt="LOGO"
@@ -66,22 +67,34 @@ export default function Navbar() {
           >
             <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
               <Link href="/#what">
-                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-normal items-center justify-center ">
+                <a
+                  className={router.pathname == "/#what" ? "navActive" : "nav"}
+                >
                   WHAT WE DO
                 </a>
               </Link>
               <Link href="/about">
-                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-normal items-center justify-center">
+                <a
+                  className={router.pathname == "/about" ? "navActive" : "nav"}
+                >
                   ABOUT US
                 </a>
               </Link>
               <Link href="/portfolio">
-                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-normal items-center justify-center">
+                <a
+                  className={
+                    router.pathname == "/portfolio" ? "navActive" : "nav"
+                  }
+                >
                   PORTFOLIO
                 </a>
               </Link>
               <Link href="/contact">
-                <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-normal items-center justify-center ">
+                <a
+                  className={
+                    router.pathname == "/contact" ? "navActive" : "nav"
+                  }
+                >
                   CONTACT US
                 </a>
               </Link>

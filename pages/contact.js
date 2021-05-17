@@ -79,7 +79,7 @@ function Contact() {
               rows="10"
               className=" w-full px-2 py-2 border rounded border-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-400 "
             ></textarea>
-            <button class="flex mx-auto mt-16 text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
+            <button className="flex mx-auto mt-16 text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
               Contact Us
             </button>
           </div>

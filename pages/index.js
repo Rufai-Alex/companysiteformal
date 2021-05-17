@@ -7,13 +7,13 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-Roboto">
       <Head>
         <title>Systems Technologies</title>
         <link rel="icon" href="/Systems_tech_icon.png" />
       </Head>
       <Header />
-      <div className="container, mx-auto p-8 font-head ">
+      <div className="container, mx-auto p-8  ">
         <div className="flex flex-col md:flex-row">
           <div className="lg:w-1/2 w-full">
             <h2 className="uppercase mb-4 mt-12">About us </h2>
@@ -220,7 +220,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button class="flex mx-auto mt-16 uppercase text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
+            <button className="flex mx-auto mt-16 uppercase text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
               <Link href="/portfolio">
                 <a> view more</a>
               </Link>

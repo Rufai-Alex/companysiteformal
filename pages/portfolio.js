@@ -8,7 +8,7 @@ const Portfolio = () => {
       <Navbar />
       <div
         className=" bg-opacity-80 
-           w-full screen60 bg-center bg-cover flex justify-center items-center flex-col border-transparent font-head text-white text-7xl  "
+           w-full screen60 bg-center bg-cover flex justify-center items-center flex-col border-transparent font-Roboto text-white text-7xl  "
         style={{
           background:
             " linear-gradient( #00438bd5, #00438bd5), url(/aboutpic.png)",
@@ -172,7 +172,7 @@ const Portfolio = () => {
         className=" screen50 flex justify-center items-center flex-col
         
         bg-opacity-80 maginTop
-           w-full screen60 bg-center bg-cover border-transparent font-head text-white text-5xl  "
+           w-full screen60 bg-center bg-cover border-transparent font-Roboto text-white text-5xl  "
         style={{
           background:
             " linear-gradient( #00438bd5, #00438bd5), url(/bg-4-1.jpg )",
