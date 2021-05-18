@@ -3,7 +3,7 @@ import Navbar from "../componets/navbar";
 
 function Contact() {
   return (
-    <div className="">
+    <div className="font-Roboto">
       <Navbar />
       <div
         className=" bg-opacity-80 

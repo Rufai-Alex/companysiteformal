@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="font-Roboto">
       <Navbar />
       <div
         className=" bg-opacity-80 
@@ -181,7 +181,7 @@ const Portfolio = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <p className="capitalize">Ready to work with us </p>
+        <p className="capitalize text-center">Ready to work with us </p>
         <div className="mt-12">
           <Link href="/contact">
             <a

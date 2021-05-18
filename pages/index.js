@@ -22,7 +22,7 @@ export default function Home() {
               best solutions
               <br /> to businesses problems
             </h3>
-            <p className="leading-loose mt-12">
+            <p className="leading-loose mt-12 text-xl">
               System Technologies Limited is an indigenous engineering and IT
               company established to help actualize technological solution for
               Nigerain businesses.
