@@ -168,7 +168,7 @@ export default function Home() {
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-12/12 px-4  mt-24">
                 <div className="flex flex-wrap">
-                  <div className="w-full lg:w-4/12 px-4">
+                  <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -185,7 +185,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="w-full lg:w-4/12 px-4">
+                  <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -202,7 +202,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="w-full lg:w-4/12 px-4">
+                  <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -228,77 +228,7 @@ export default function Home() {
           </div>
         </section>
       </div>
-      {/* <section className="WHO ARE WE container mx-auto overflow-hidden pb-20">
-        <div className="flex flex-wrap items-center pt-32">
-          <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-            <h3 className="text-3xl mb-2 font-semibold leading-normal">
-              Who are we
-            </h3>
-            <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem in
-              harum maiores quod recusandae tenetur obcaecati numquam, natus
-              quia repudiandae labore praesentium quam, odit cumque quasi
-              repellat ipsam sint distinctio.
-            </p>
-            <div className="flex justify-between">
-              <div>
-                <h6 className="uppercase">Lorem ipsum dolor </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Excepturi?
-                </p>
-              </div>
-              <div>
-                <h6>Lorem ipsum dolor </h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Excepturi?
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
-            <div className="justify-center flex flex-wrap relative">
-              <div className="my-4 w-full lg:w-6/12 px-4">
-                <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                  <p className="text-lg text-white mt-4 font-semibold">
-                    our project
-                  </p>
-                </div>
 
-                <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8 bg-gray-700">
-                  <img />
-                  <p className="text-lg text-white mt-4 font-semibold">
-                    client working on ir
-                  </p>
-                </div>
-              </div>
-              <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                  target="_blank"
-                >
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                    <img />
-                    <p className="text-lg text-white mt-4 font-semibold">
-                      cients stisfaction
-                    </p>
-                  </div>
-                </a>
-
-                <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                  <img />
-                  <p className="text-lg text-white mt-4 font-semibold">
-                    data let see hahah
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* <Contact /> */}
       <Footer2 />
     </div>
   );

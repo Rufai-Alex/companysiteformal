@@ -26,7 +26,7 @@ const Portfolio = () => {
       <div className="justify-center flex flex-wrap">
         <div className="w-full lg:w-12/12 px-4  mt-24">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
@@ -51,7 +51,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
@@ -101,7 +101,7 @@ const Portfolio = () => {
       <div className="justify-center flex flex-wrap">
         <div className="w-full lg:w-12/12 px-4  mt-24">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
@@ -122,7 +122,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
@@ -143,7 +143,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-4 transition duration-150 ease-in-out hover:translate-y-1 transform">
               <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                 <img
                   alt="..."
