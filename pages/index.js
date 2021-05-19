@@ -11,6 +11,10 @@ export default function Home() {
       <Head>
         <title>Systems Technologies</title>
         <link rel="icon" href="/Systems_tech_icon.png" />
+        <meta
+          name="keywords"
+          content="web development, software product design and management, embedded system design "
+        />
       </Head>
       <Header />
       <div className="container, mx-auto p-8  ">
@@ -60,7 +64,7 @@ export default function Home() {
                   Embedded
                 </span>
 
-                <span className="  text-2xl lg:text-4xl font-light block ">
+                <span className="  text-3xl lg:text-4xl font-light block ">
                   system design
                 </span>
               </h3>
@@ -93,7 +97,7 @@ export default function Home() {
                   Software
                 </span>
 
-                <span className=" text-2xl  lg:text-5xl font-light uppercase lg:-ml-10 block ">
+                <span className=" text-3xl  lg:text-5xl font-light capitalize lg:-ml-10 block ">
                   Engineering
                 </span>
               </h3>
@@ -114,7 +118,7 @@ export default function Home() {
                 alt="..."
               />
             </div>
-            <div className="lg:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full p-4">
               <h3 className=" primaryColorText capitalize header-hight font-bold mt-12">
                 <span className="block text-2xl  lg:text-5xl text-gray-400 uppercase font-light leading-10 lg:-ml-36">
                   software product
@@ -140,7 +144,7 @@ export default function Home() {
                   it product research
                 </span>
 
-                <span className="text-3xl  lg:text-4xl font-light  block mt-4">
+                <span className="text-3xl  lg:text-5xl tracking-wider font-light  block">
                   and consulting
                 </span>
               </h3>
