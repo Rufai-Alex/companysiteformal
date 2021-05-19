@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
@@ -23,6 +24,15 @@ export default function Navbar() {
   const router = useRouter();
   return (
     <div className="top-0 z-50 w-full ">
+      <Head>
+        <title>Systems Technologies{router.pathname}</title>
+        <link rel="icon" href="/Systems_tech_icon.png" />
+        <meta
+          name="keywords"
+          content="web development, software product design and management, embedded system design "
+        />
+      </Head>
+
       <div>
         <nav className={navbar ? "navbgscroll " : "navbgTransparent"}>
           <Link href="/">

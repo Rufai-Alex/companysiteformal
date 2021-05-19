@@ -224,7 +224,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button className="flex mx-auto mt-16 uppercase text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
+            <button className="flex mx-auto mt-16 mb-8 uppercase text-white primaryColorBg border-0 py-2 px-8 focus:outline-none hover:bg-indigo-300 rounded text-lg">
               <Link href="/portfolio">
                 <a> view more</a>
               </Link>
