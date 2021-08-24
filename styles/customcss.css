@@ -1,6 +1,6 @@
-.font-hexad {
+/* .font-hexad {
   font-family: "Roboto", cursive;
-}
+} */
 /* * {
   font-family: "Rubik", cursive;
 } */
@@ -18,6 +18,9 @@
 
 .primaryColorText {
   color: var(--primary-color);
+}
+.color1 {
+  color: #58709d;
 }
 
 .header-hight {
@@ -74,4 +77,9 @@
   padding-left: 3rem;
   padding-right: 3rem;
   position: fixed;
+}
+
+.testing {
+  column-width: 300px;
+  column-count: 2;
 }

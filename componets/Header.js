@@ -25,9 +25,10 @@ function Header() {
                 <h2 className="font-semibold  text-4xl text-white uppercase">
                   <p className=" mt-4  text-xl leading-relaxed text-blueGray-500">
                     We design and implement cost-effective, intituitive and
-                    robust solution for engineering and softwere challange
+                    robust solutions for engineering and software challanges
                   </p>{" "}
                 </h2>
+
                 <div className="mt-12">
                   <Link href="/contact">
                     <a
@@ -40,7 +41,7 @@ function Header() {
                   </Link>
                 </div>
                 <div className="mt-10 text-white">
-                  <p className="mb-4">Trusted by compoanies like :</p>
+                  <p className="mb-4">Trusted by companies like :</p>
                   <div className="flex space-x-4">
                     <div>
                       <Image

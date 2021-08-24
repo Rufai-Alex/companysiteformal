@@ -41,8 +41,8 @@ export default function Navbar() {
                 <Image
                   src="/Systems_tech_icon.png"
                   alt="LOGO"
-                  width={70}
-                  height={40}
+                  width={80}
+                  height={50}
                 />
               </div>
               <h1 className="uppercase font-extralight  text-xs font-sans">
@@ -97,6 +97,13 @@ export default function Navbar() {
                   }
                 >
                   PORTFOLIO
+                </a>
+              </Link>
+              <Link href="/career">
+                <a
+                  className={router.pathname == "/career" ? "navActive" : "nav"}
+                >
+                  CAREER
                 </a>
               </Link>
               <Link href="/contact">

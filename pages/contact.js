@@ -25,7 +25,7 @@ function Contact() {
               <div className="capitalize border-l-4 border-red-400  px-4">
                 <h4 className="font-medium  uppercase">Address</h4>
                 <address>
-                  No 20,University permanentsite road Ilorin,
+                  No 21,University permanentsite road Ilorin,
                   <br /> Kwara State, Nigeria.
                 </address>
               </div>

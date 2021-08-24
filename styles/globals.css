@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@font-face {
+  font-family: "Montserrat";
+  src: url("/font/Montserrat/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      Roboto: ["Rubik", ' "sans-serif"'],
+      Montserrat: ["Monserrat", ""],
     },
   },
   variants: {
