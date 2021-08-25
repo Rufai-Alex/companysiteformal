@@ -79,7 +79,7 @@ function Career() {
       </div>
       {showModal ? (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="justify-center  flex overflow-x-hidden mt-40 overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-auto my-6 mx-auto max-w-6xl">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -96,21 +96,21 @@ function Career() {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto pt-32 z-50">
+                <div className="relative p-6 flex-auto ">
                   <div className="my-4 text-blueGray-500 text-lg leading-relaxed">
                     <div>
-                      <h2 className="uppercase font-bold text-indigo-600 ">
+                      <h2 className="uppercase font-bold primaryColorText ">
                         Position
                       </h2>
                       <p>IT ADMINISTRATOR</p>
                     </div>
                   </div>
                   <div>
-                    <h2 className="uppercase font-bold text-indigo-600 ">
+                    <h2 className="uppercase font-bold primaryColorText ">
                       Job specifications:
                     </h2>
-                    <p className="text-sm  font-normal leading-relaxed">
-                      <ul>
+                    <p className="p-2 color1 text-sm  font-normal ">
+                      <ul className="list-disc">
                         <li>Full Time</li>
                         <li>Required Qualification:BA/BSC/HND</li>
                         <li>Location:Ilorin, Kwara State.</li>
@@ -118,11 +118,10 @@ function Career() {
                     </p>
                   </div>
                   <div>
-                    <h2 className="uppercase font-bold text-indigo-600 ">
-                      {" "}
+                    <h2 className="uppercase font-bold primaryColorText ">
                       Job Description:
                     </h2>
-                    <ol className="text-sm  font-normal leading-relaxed">
+                    <ol className="p-2 color1 text-sm  font-normal list-disc">
                       <li>Manitoring and maintainig netwirks and server</li>
                       <li>Verifying and resoluting stock purchases</li>
                       <li>
@@ -136,10 +135,10 @@ function Career() {
                     </ol>
                   </div>
                   <div>
-                    <h2 className="uppercase font-bold text-indigo-600 ">
+                    <h2 className="uppercase font-bold primaryColorText ">
                       Qualifications and requirements:
                     </h2>
-                    <ol className="text-sm  font-normal leading-relaxed">
+                    <ol className="p-2 color1 text-sm  font-normal list-disc">
                       {" "}
                       <li>
                         {" "}
@@ -159,10 +158,10 @@ function Career() {
                     </ol>
                   </div>
                   <div>
-                    <h2 className="uppercase font-bold text-indigo-600 ">
+                    <h2 className="uppercase font-bold primaryColorText ">
                       Method of Application
                     </h2>
-                    <p className="text-sm  font-normal leading-relaxed">
+                    <p className="p-2 color1 text-sm  font-normal">
                       Interested and qualified candidate for the Job at "Systems
                       Technologies" should send CV and cover letter stating why
                       you are interested in the role to:
@@ -171,10 +170,12 @@ function Career() {
                     </p>
                   </div>
                   <div>
-                    <h2 className="uppercase font-bold text-indigo-600 ">
+                    <h2 className="uppercase font-bold primaryColorText ">
                       Deadline:
                     </h2>
-                    <p>August 5th, 2021</p>
+                    <p className="p-2 color1 text-sm  font-normal">
+                      August 5th, 2021
+                    </p>
                   </div>
                 </div>
                 {/*footer*/}
@@ -187,11 +188,11 @@ function Career() {
                     Close
                   </button>
                   <button
-                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-emerald-500  color1 active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Save Changes
+                    Apply Now
                   </button>
                 </div>
               </div>

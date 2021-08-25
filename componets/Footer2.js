@@ -10,13 +10,13 @@ function Footer2() {
             className="align-middle border-none max-w-full h-20  rounded-lg pl-32"
             src="/Systems_tech_icon.png"
           />
-          <div className="uppercase  mr-4 text-6xl primaryColorText font-sans font-light tracking-wide subpixel-antialiased">
+          <div className="uppercase  text-6xl primaryColorText font-sans font-normal tracking-wide subpixel-antialiased">
             systems
           </div>
           <div className="uppercase text-4xl browncolor font-sans font-normal tracking-normal">
             technologies
           </div>
-          <div className=" font-sans text-sm primaryColorText tracking-widest italic pl-28">
+          <div className=" font-sans text-sm primaryColorText tracking-widest italic pl-24">
             "PeopleandSolutions"
           </div>
         </div>
